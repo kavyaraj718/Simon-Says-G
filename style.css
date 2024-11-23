@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.up {
+    display: flex;
+    gap: 30px;
+}
+
+.down {
+    display: flex;
+    gap: 30px;
+}
+
+.box {
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.blueviolet {
+    background-color: blueviolet;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}
